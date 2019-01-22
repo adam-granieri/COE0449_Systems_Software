@@ -1,0 +1,22 @@
+Adam Granieri
+COE 0449 Systems Software
+Fall 2018
+
+Files:
+
+	mymalloc.h
+	testDrive.c
+
+Methodology:
+
+	I chose to implement this with a linked list
+	since it seemed more straight-forward to implement.
+	In the mymalloc.c program I created a Node struct with
+	an int signifiying if the node block is free or used
+	currently.  It also has an int indicating the block size
+	and references to the next and previous blocks in the list.
+	In the rest of the class I maintain a head, tail and current
+	Node object to iterating and reference data segments in the
+	heap.  For the function methodology I implemented the
+	algorithm described in class and in the assignmenr
+	description of worstFit.  

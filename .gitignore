@@ -1,0 +1,14 @@
+#output files
+*.exe
+*.out
+*.i64
+*.bin
+*.o
+*.swp
+
+#package files
+*.zip
+
+# misc
+*.pdf
+*.c~
